@@ -3,6 +3,7 @@
 #include<string>
 using namespace std;
 
+
 class Phone
 {
 private:
@@ -12,5 +13,9 @@ public:
 	Phone();
 	Phone(string brand, double price);
 	string getInfo();
+	string getBrand();
+	void setBrand(string brand);
+	string getPrice();
+	void setPrice(double price);
 };
 
