@@ -139,12 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AppStore.cpp" />
+    <ClCompile Include="Store.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Phone.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AppStore.h" />
+    <ClInclude Include="Store.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Phone.h" />
   </ItemGroup>

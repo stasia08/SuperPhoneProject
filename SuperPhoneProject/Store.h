@@ -1,30 +1,34 @@
 #pragma once
 #include"Header.h"
 #include"Phone.h"
-class AppStore
+class Store
 {
 private:
 	string brand;
-	double price;
 	Phone* list;
 public:
-	AppStore();
-	AppStore(string brand);
-	AppStore(string brand, double price);
-	~AppStore();
+	Store();
+	Store(string brand);
+	Store(string brand, double price, int memory, int year, double display, int capecity );
+	~Store();
 
 	void add(Phone ph);
 	Phone get(int index);
 	int getSize();
 	string getBrand();
 	void setBrand(string brand);
+
 	void sortByPhoneBrandAsk();
 	void sortByPhoneBrandDesk();
+
 	Phone getMaxBigPhone();
 	Phone getMinBigPhone();
+	string getInfo();
 
 
+	
 
+	
 
 };
 
