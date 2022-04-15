@@ -3,10 +3,12 @@
 #include<string>
 using namespace std;
 
-
 class Phone
 {
 private:
+
+	static int count;
+
 	string brand;
 	double price;
 	int memory;
@@ -16,6 +18,11 @@ private:
 public:
 	Phone();
 	Phone(string brand, double price, int memory, int year, double display, int capecity);
+	Phone(string brand, double price);
+	~Phone();
+
+	static int getCount();
+
 	string getInfo();
 	string getBrand();
 	void setBrand(string brand);
@@ -33,9 +40,7 @@ public:
 	void setDisplay(double display);
 	string getCapecity();
 	void setCapecity(int capecity);
-	
 
-	
 
 };
 
