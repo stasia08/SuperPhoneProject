@@ -54,6 +54,7 @@ void Phone::setMemory(int memory) {
 	this->memory = memory;
 }
 
+
 string Phone::getYear() {
 	return to_string(year);
 }
@@ -80,5 +81,8 @@ void Phone::setCapecity(int capecity) {
 
 int Phone::getCount() {
 	return count;
+}
+string Phone::getSize() {
+	return to_string(size);
 }
 
