@@ -86,3 +86,6 @@ string Phone::getSize() {
 	return to_string(size);
 }
 
+void Phone::setSize(int size) {
+	this->size = size;
+}

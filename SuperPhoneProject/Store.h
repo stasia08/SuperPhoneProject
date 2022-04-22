@@ -6,10 +6,11 @@ class Store
 private:
 	string brand;
 	Phone* list;
+	string size;
 public:
 	Store();
 	Store(string brand);
-	Store(string brand, double price, int memory, int year, double display, int capecity );
+	Store(string brand, Phone* list, int size);
 	~Store();
 
 	void add(Phone ph);
