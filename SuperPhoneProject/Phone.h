@@ -20,6 +20,7 @@ private:
 public:
 	Phone();
 	Phone(string brand, double price, int memory, int year, double display, int capecity, int size);
+	
 	Phone(string brand, double price);
 	~Phone();
 
@@ -40,6 +41,7 @@ public:
 	void setCapecity(int capecity);
 	string getSize();
 	void setSize(int size);
+	
 
 };
 

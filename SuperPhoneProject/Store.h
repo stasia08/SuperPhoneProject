@@ -6,7 +6,8 @@ class Store
 private:
 	string brand;
 	Phone* list;
-	string size;
+	int size;
+
 public:
 	Store();
 	Store(string brand);

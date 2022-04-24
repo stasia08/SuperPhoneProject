@@ -12,7 +12,7 @@ Phone::Phone(string brand, double price) {
 	count++;
 }
 
-Phone::Phone(string brand, double price, int memory, int year, double display, int capecity) {
+Phone::Phone(string brand, double price, int memory, int year, double display, int capecity, int size) {
 	this->brand = brand;
 	this->price = price;
 	this->memory = memory;
